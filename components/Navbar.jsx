@@ -25,7 +25,7 @@ const Navbar = () => {
          <Link href={'/home'} className="nav_text">Home</Link>
          <Link href={'/about'} className="nav_text">About</Link>
          <Link href={'/genre'} className="nav_text">Genre</Link>
-         <Link href={'/topanime'} className="nav_text">Top Anime</Link>
+         <Link href={'#topanime'} className="nav_text">Top Anime</Link>
          <Link href={'/community'} className="nav_text">Community</Link>
          <button type="button" className="lg:w-24 lg:h-12 h-8 w-16  rounded-full  bg-purple-800 mx-5 hover:bg-purple-900 hover:scale-[1.2] duration-200 ">Login</button>
          </div>
@@ -42,7 +42,7 @@ const Navbar = () => {
           <Link href={'/home'} className="nav_text">Home</Link>
           <Link href={'/about'} className="nav_text">About</Link>
           <Link href={'/genre'} className="nav_text">Genre</Link>
-          <Link href={'/topanime'} className="nav_text">Top Anime</Link>
+          <Link href={'#topanime'} className="nav_text">Top Anime</Link>
           <Link href={'/community'} className="nav_text">Community</Link>
          <button type="button" className="h-10 w-20  rounded-full  bg-purple-800 mx-5 hover:bg-purple-900 hover:scale-[1.2] duration-200 ">Login</button>
          </div>
