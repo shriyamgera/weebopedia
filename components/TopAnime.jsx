@@ -4,6 +4,7 @@ import Heading from './Heading'
 import AnimeCard from './AnimeCard'
 import { HiChevronLeft, HiChevronRight } from "react-icons/hi";
 import { document } from 'postcss';
+import { url } from './config/apiUrl';
 
 const TopAnime = () => {
 
@@ -13,7 +14,7 @@ const TopAnime = () => {
     const fetchTopAnime=async()=>{
 
       try {
-        const res=await fetch('https://api.jikan.moe/v4/top/anime')
+        const res=await fetch(`${url}/top/anime`)
         const data=await res.json()
         setTopAnimeData(data)
         console.log(data);
@@ -30,10 +31,8 @@ const TopAnime = () => {
     
 
     useEffect(() => {
-      console.log("Before",topAnimeData);
 
         fetchTopAnime()
-        console.log("After",topAnimeData);
     }, [])
     
   // return (

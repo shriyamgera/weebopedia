@@ -63,10 +63,10 @@ const AnimeCard = ({isNormal, rank, name, img, score, propClass }) => {
 </div>}
     
     
-      <div className="flex justify-end flex-col items-center w-[224px] text-center">
-      <Image src={img} alt={name} height={320} width={224}/>
+      <div className="flex justify-end flex-col items-center min-h-[320px] w-[224px] text-center">
+      <Image src={img} alt={name} height={320} width={224} className="h-[320px] object-cover"/>
         <div
-          className=" relative h-[35px] overflow-hidden font-semibold text-2xl overflow-ellipsis"
+          className=" overflow-ellipsis w-[224px] whitespace-nowrap overflow-hidden font-semibold text-xl"
         >
           {name}
         </div>
