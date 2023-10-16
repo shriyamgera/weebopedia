@@ -22,7 +22,7 @@ const AnimeCard = ({isNormal, rank, name, img, score, propClass }) => {
     
       className={` hover:scale-[1.1] duration-500 ${propClass} my-5`}
     >
-      {isHovered && <div className="z-10 bottom-1/2 left-1/2 absolute  w-[350px] bg-white p-5 flex flex-col gap-4 glassmorphism ">
+      {isHovered && <div className="z-10 w-[350px] bg-white p-5 flex flex-col gap-4 glassmorphism ">
       <div className="font-bold text-3xl">{name}</div>
       <div className="font-semibold text-xl">{score}</div>
       <div>synopsissjfhnsfndsjfndshjfb shjdbfhjsdbfhjsdb dfjkndsfnds fsd fhjds fhjds fj m djf dshjbdsfhjbsdfhjbsdfjh dsjbf sdbf jhsd fjsd fjds fjhsd fjshd f</div>
@@ -54,7 +54,7 @@ const AnimeCard = ({isNormal, rank, name, img, score, propClass }) => {
     
     className={`hover:scale-[1.1] duration-500 ${propClass} my-5`}
   >
-    {isHovered && <div className="z-10 bottom-1/2 left-1/2 absolute  w-[350px] bg-white p-5 flex flex-col gap-4 glassmorphism ">
+    {isHovered && <div className="z-10 bottom-1/2 left-1/2 absolute  w-[350px] bg-black p-5 flex flex-col gap-4 glassmorphism ">
     <div className="font-bold text-3xl">{name}</div>
     <div className="font-semibold text-xl">{score}</div>
     <div>synopsissjfhnsfndsjfndshjfb shjdbfhjsdbfhjsdb dfjkndsfnds fsd fhjds fhjds fj m djf dshjbdsfhjbsdfhjbsdfjh dsjbf sdbf jhsd fjsd fjds fjhsd fjshd f</div>

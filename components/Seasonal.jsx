@@ -1,7 +1,6 @@
 'use client'
 import React, { useEffect, useState } from 'react'
 import Heading from './Heading'
-import { Space_Mono } from 'next/font/google'
 import AnimeCard from './AnimeCard'
 import { url } from './config/apiUrl'
 
@@ -29,7 +28,7 @@ const Seasonal = ({homepage}) => {
 
       setTimeout(() => {
         fetchSeason()
-      }, 1000);
+      }, 1500);
     }, [])
     
 

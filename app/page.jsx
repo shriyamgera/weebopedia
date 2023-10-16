@@ -1,3 +1,4 @@
+import DoublePartition from '@/components/DoublePartition'
 import MainCrousel from '@/components/MainCrousel'
 import Seasonal from '@/components/Seasonal'
 import TopAnime from '@/components/TopAnime'
@@ -10,7 +11,7 @@ const page = () => {
       <MainCrousel/>
       <TopAnime/>
       <Seasonal homepage={true}/>
-      <Upcoming/>
+      <DoublePartition/>
     </>
   )
 }

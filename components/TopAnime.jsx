@@ -3,7 +3,6 @@ import React, { useEffect, useRef, useState } from 'react'
 import Heading from './Heading'
 import AnimeCard from './AnimeCard'
 import { HiChevronLeft, HiChevronRight } from "react-icons/hi";
-import { document } from 'postcss';
 import { url } from './config/apiUrl';
 
 const TopAnime = () => {
