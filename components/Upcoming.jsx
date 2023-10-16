@@ -26,7 +26,7 @@ const Upcoming = () => {
   return (
     <div>
         <Heading title={'Top Upcoming'}/>
-        <div className={`flex flex-wrap gap-8  overflow-hidden w-[100%] ${isExpand?'max-h-full':'max-h-[1290px]'} pt-5 scale-[0.8] -mt-20`}>
+        <div className={`flex flex-wrap gap-8 overflow-hidden w-[100%] pt-5 scale-[0.8] -mt-48`}>
             {upcomingData && upcomingData.data && upcomingData.data.length>0?
             < >
                 {upcomingData?.data?.map((item)=>(
@@ -34,7 +34,7 @@ const Upcoming = () => {
                 ))}
             </>:<span className='relative loader'/>}
         </div>
-        <div className=' text-lg text-center font-semibold cursor-pointer bottom-0 relative -mt-20' onClick={()=>{setIsExpand(!isExpand)}}>{isExpand?"< View Less":"View More >"}</div>
+        {/* <div className=' text-lg text-center font-semibold cursor-pointer bottom-0 relative -mt-20' onClick={()=>{setIsExpand(!isExpand)}}>{isExpand?"< View Less":"View More >"}</div> */}
 
     </div>
   )
