@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import Heading from './Heading'
 import AnimeCard from './AnimeCard'
 import { HiChevronLeft, HiChevronRight } from "react-icons/hi";
-import { url } from './config/apiUrl';
+import { url } from '../public/config/apiUrl';
 
 const TopAnime = () => {
 
@@ -82,11 +82,11 @@ const TopAnime = () => {
   // useEffect(() => {
   //   // Update the container's width based on the number of cards
   //   if (containerRef.current) {
-  //     const cardWidth = containerRef.current.clientWidth/1.5; // Assuming 4 cards visible at a time
+  //     const cardWidth = containerRef.current.clientWidth/1.5; // Assuming 4 cards  visible at a time
   //     const containerWidth = cardWidth * topAnimeData?.data?.length;
   //     containerRef.current.style.width = `${containerWidth}px`;
   //   }
-  // }, [topAnimeData]);
+  // }, [topAnimeData]); 
 
   
 

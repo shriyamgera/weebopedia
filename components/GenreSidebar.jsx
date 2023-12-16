@@ -1,6 +1,6 @@
 'use client'
 import React, { useEffect, useState } from 'react'
-import { url } from './config/apiUrl'
+import { url } from '../public/config/apiUrl'
 
 const GenreSidebar = () => {
 
