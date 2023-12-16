@@ -2,7 +2,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
-import { Button } from "reactstrap";
 import { IoMenu,IoCloseSharp } from "react-icons/io5";
 
 const Navbar = () => {
