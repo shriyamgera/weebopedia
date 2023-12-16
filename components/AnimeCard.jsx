@@ -64,7 +64,7 @@ const AnimeCard = ({isNormal, rank, name, img, score, propClass }) => {
     
       <Link href={'/animeData'} className="flex justify-end flex-col items-center min-h-[320px] w-[224px] text-center">
       <Image src={img} alt={name} height={320} width={224} className="h-[320px] object-cover"/>
-      {isHovered && <HoverCard/>}
+      {/* {isHovered && <HoverCard/>} */}
       
         <div
           className=" overflow-ellipsis w-[224px] whitespace-nowrap overflow-hidden font-semibold text-xl"
