@@ -10,9 +10,9 @@ const DoublePartition = () => {
       <div className='lg:w-[70%]'>
     <Upcoming/>
     </div>
-    <div className='lg:w-[30%]'>
+{/*     <div className='lg:w-[30%]'>
     <GenreSidebar/>
-    </div>
+    </div> */}
     </div>
     </>
   )
